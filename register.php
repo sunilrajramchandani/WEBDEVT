@@ -16,12 +16,16 @@
 <html>
 	<head>
 		<title>Student Registration</title>
+		<link href="css/button.css" rel="stylesheet" />
 		<link href="css/bootstrap.min.css" rel="stylesheet" />
+		
 	</head>
 	<body>
 		<div class="container">
 			<h1 class="text-center">Student Registration</h1>
-			<div class="col-lg-offset-3 col-lg-6">
+			<div class="col-lg-3">
+			</div>
+			<div class="col-lg-6">
 				<div class="well">
 					<form method="POST" action="welcome.php"
 						class="form-horizontal">
@@ -80,12 +84,13 @@
 							</div>
 						</div>
 						<div class="form-group">
-							<div class="col-lg-offset-4 col-lg-8">
-								<button name="register"
-									class="btn btn-success">
-									Register
+
+							<div class="col-lg-offset-3 col-lg-4">
+								<button name="register" class="btn style2">
+									<span>Register</span>
 								</button>
 							</div>
+						</div>
 						</div>
 					</form>
 				</div>
