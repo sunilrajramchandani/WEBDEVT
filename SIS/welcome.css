@@ -1,0 +1,10 @@
+body{
+	background-image: url("bg.JPG");
+}
+h1{
+	text-transform: uppercase;
+	color: white;
+	font-size: 300%;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	padding-bottom:5%;
+}

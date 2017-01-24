@@ -45,7 +45,7 @@
 									class="form-control input-lg" placeholder="First Name" required />
 							</div>
 							<div class="col-lg-5">
-								<input type="password" name="pwd"
+								<input type="text" name="pwd"
 									class="form-control input-lg" placeholder = "User Name" required />
 							</div>
 							
@@ -57,7 +57,7 @@
 									class="form-control input-lg" placeholder = "Set a Password" required />
 							</div>
 							<div class="col-lg-5">
-								<input type="text" name="cpwd" id = "password2"
+								<input type="password" name="cpwd" id = "password2"
 									class="form-control input-lg" placeholder="Confirm Password" onchange="match()" required />
 							</div>
 							<script>
