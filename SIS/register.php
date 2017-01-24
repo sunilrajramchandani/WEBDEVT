@@ -15,9 +15,9 @@
 <html>
 	<head>
 		<title>Student Registration</title>
-		<link href="css/registration.css" rel="stylesheet" />
-		<link href="css/bootstrap.min.css" rel="stylesheet" />
 		
+		<link href="css/bootstrap.min.css" rel="stylesheet" />
+		<link href="registration.css" rel="stylesheet" />
 	</head>
 	<body>
 		<div class="container">
@@ -45,7 +45,7 @@
 									class="form-control input-lg" placeholder="First Name" required />
 							</div>
 							<div class="col-lg-5">
-								<input type="text" name="pwd"
+								<input type="text" name="username"
 									class="form-control input-lg" placeholder = "User Name" required />
 							</div>
 							
@@ -82,16 +82,12 @@
 							</div>
 						</div>
 						<div class="form-group">
-
-							<div class="col-lg-offset-5 col-lg-7">
-								<button name="register" class="myButton btn-lg">
-									<span>Register</span>
-								</button>
+							<div class= "col-lg-offset-4">
+								<button name="register" class="center-block myButton btn-lg">Register</button>
 							</div>
 						</div>
 					</form>
 				</div>
 			</div>
-		</div>
 	</body>
 </html>

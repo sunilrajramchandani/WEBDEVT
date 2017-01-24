@@ -9,8 +9,7 @@ error_reporting(0);
 		$firstName = $_POST["fn"];
 		$emailAddress = $_POST["email"];
 		$password= $_POST["pwd"];
-		$birthDate = $_POST["bday"];
-		$date = date('o-m-d');
+		$username = $_POST["username"];
 		
 	}
 
@@ -18,30 +17,25 @@ error_reporting(0);
 <!DOCTYPE html>
 <head>
 	<title>WELCOME</title>
-	<link href="css/registration.css" rel="stylesheet" />
+
 	<link href="css/bootstrap.min.css" rel="stylesheet" />
+		<link href="welcome.css" rel="stylesheet" />
 </head>
 <body>
 
 	<div class = "container">
-		<div class="row col-lg-offset-3">
+		<div class="row text-center">
 			<h1>REGISTRATION SUCCESSful!!</h1>
 		</div>
-		<div class="row col-lg-offset-4">
-			<img src='css/lol.png' style="width:40%; height:50%" class="img-responsive img-circle">
+		<div class="row">
+			<img src='lol.PNG' style="width:30%; height:40%" class="center-block img-responsive">
 		</div>
-		<div class="row col-lg-offset-5">
-			<p class="h3"><?php echo$firstName." ". $lastName ?></p>
+		<div class="row text-center">
+			<h3><?php echo$firstName." ". $lastName. "(" . $username . ")" ?><h3>
 		</div>
 	
-		<div class = "row">
-			<div class="col-lg-4">
-			</div>
-			<div class="col-lg-4">
-				<p class = "h4"> <?php echo $emailAddress ?>
-			</div>
-			<div class="col-lg-4">
-			</div>
+		<div class = "row text-center">
+				<h4> <?php echo $emailAddress ?>  </h4>
 		</div>
 	</div>
 </body>
